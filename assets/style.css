@@ -223,7 +223,7 @@ button:hover {
 }
 
 /* Cards */
-#proyectos h1 {
+.titel-proyectos {
   padding: 0 15%;
 }
 .card-container {
@@ -269,7 +269,7 @@ button:hover {
 }
 
 .card-body h1 {
-  font-size: 15px;
+  font-size: 30px;
   font-weight: 100;
   position: relative;
   max-width: 80%;
@@ -277,7 +277,7 @@ button:hover {
 
 .card-body p {
   text-transform: capitalize;
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 25px;
   margin-top: 8px;
@@ -393,12 +393,12 @@ ul {
   padding: 0;
 }
 
-.logo {
+.logo-contact {
   text-align: center;
   font-size: 50px;
 }
 
-.logo span {
+.logo-contact span {
   color: var(--accent);
 }
 
@@ -495,7 +495,7 @@ ul {
 /* Footer*/
 footer {
   width: 100%;
-  height: 200px;
+  height: 100%;
   background-color: var(--primary);
   color: var(--text-gray);
   padding: 20px;
@@ -654,9 +654,9 @@ footer {
     height: 500px;
   }
 
-  #proyectos h1 {
-    font-size: 40px;
-    padding: 0 15%;
+  .card-body h1 {
+    font-size: 20px;
+    padding: 10px 0;
   }
   .card-bto {
     width: 120px;
@@ -682,20 +682,6 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .logo {
-    text-align: center;
-    font-size: 50px;
-  }
-
-  .logo span {
-    color: var(--accent);
   }
 
   .contact-wrapper {
@@ -750,7 +736,7 @@ footer {
     margin: auto;
   }
   .logos img {
-    width: 20%;
+    width: 18%;
   }
   /* About */
 
@@ -766,20 +752,21 @@ footer {
     line-height: 1.8;
   }
 
+  /* Cards */
   .card {
-    width: 330px;
-    height: 330px;
+    width: 310px;
+    height: 530px;
   }
 
   .card-bto {
     width: 120px;
     margin-top: 0;
   }
+
   .card-body h1 {
-    font-size: 17px;
-    font-weight: 100;
-    position: relative;
+    font-size: 40px;
   }
+
   .card-body p {
     max-width: 100%;
     font-size: 15px;
