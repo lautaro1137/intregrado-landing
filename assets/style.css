@@ -571,10 +571,9 @@ footer {
     top: 65px;
     left: 20%;
     right: 5%;
-    width: 100%;
     height: 400%;
     flex-direction: column;
-    background-color: #79e0eea9;
+    background-color: #79e0ee;
     border: 2px solid black;
     border-top: 0;
     border-radius: 0 0 15px 15px;
@@ -695,6 +694,7 @@ footer {
 
   .contact-info {
     background-size: 180px;
+    background: var(--background);
   }
 
   .footer-logo img {

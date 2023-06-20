@@ -9,16 +9,15 @@ html body {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: #7bb5f1;
+
+  opacity: 0.8;
   background-image: linear-gradient(62deg, #e2fcff 0%, #62f1bf 100%);
+
+  opacity: 0.8;
 }
 .container {
   width: 100%;
-  background: #ffffff57;
-  background-image: url(/assets/registro.png);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background: #f3f7fa67;
   padding: 25px 30px;
   border-radius: 5px;
   margin: 20%;
@@ -133,18 +132,19 @@ form .gender-details .category {
 .gender-details .category .check {
   height: 18px;
   width: 18px;
-  background: #fffefe;
+  background: #fdfbfb;
+  border: 3px black;
   border-radius: 50%;
   margin-right: 10px;
-  border: 5px solid transparent;
+  border: 2px solid black;
   transition: all 0.4s ease;
   cursor: pointer;
 }
 #check-1:checked ~ .category label .uno,
 #check-2:checked ~ .category label .dos,
 #check-3:checked ~ .category label .tres {
-  border-color: #d9d9d9;
-  background: #8ec5fc;
+  border-color: 2px #000000;
+  background: #389bff;
 }
 
 form input[type="radio"] {
