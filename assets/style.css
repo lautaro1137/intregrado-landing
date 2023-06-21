@@ -717,6 +717,13 @@ footer {
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 28px;
+    margin-top: 5px;
+  }
   .title-desktop {
     display: none;
   }
